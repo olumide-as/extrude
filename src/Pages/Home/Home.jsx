@@ -29,7 +29,7 @@ const Home = () => {
           imgUrl={design}
           color='red' 
           heading="Design and Drafting" 
-          text="Extrude Solutions is equipped to do a variety of engineering design work, this include; specification drawings, computer aided designs, maintenance design"
+          text="Extrude Solutions is equipped to do a variety of engineering design work, this include; specification drawings, computer aided designs, maintenance design."
           link='/about'
           buttontext='Design'
         />
