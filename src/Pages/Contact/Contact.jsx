@@ -34,7 +34,7 @@ const Contact = () => {
       <Landing 
       heading="Contact Us" 
       subheading='Ready to Launch your Project?' 
-      text='We available for your inquiries and typically respond in a short while'
+      text='We are available for your inquiries and typically respond in a short while'
       bg={contactbg}
       />
 
