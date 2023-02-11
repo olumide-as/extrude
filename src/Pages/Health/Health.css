@@ -1,0 +1,18 @@
+.extrude__health{
+    display: flex;
+}
+
+.extrude__health-safety{
+    padding: 2rem;
+}
+
+.extrude__health-environment{
+    padding: 2rem;
+}
+
+@media screen and (max-width:800px) {
+    .extrude__health{
+        flex-direction: column;
+    }
+    
+  }

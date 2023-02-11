@@ -1,0 +1,109 @@
+.extrude__about-history{
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width:920px) {
+    .extrude__about-history{
+        flex-direction: column;
+    }
+    
+  }
+
+.extrude__about-history__content{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.extrude__about-history__image img{
+    border-radius: 1rem;
+    width: 400px;
+}
+
+@media screen and (max-width:680px) {
+    .extrude__about-history__image img{
+        width: 100%;
+    }
+    
+  }
+
+.extrude__about-mission{
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width:1024px) {
+    .extrude__about-mission{
+        flex-wrap: wrap;
+    }
+    
+  }
+
+.extrude__about-mission__content{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.extrude__about-mission__image img{
+    border-radius: 1rem;
+    width: 250px;
+}
+
+@media screen and (max-width:680px) {
+    .extrude__about-mission__image img{
+        width: 100%;
+    }
+    
+  }
+
+.extrude__about-process{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.extrude__about-process__content{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.extrude__about-process__image img{
+    border-radius: 1rem;
+    width: 400px;
+}
+
+.extrude__about-process__others ul{
+        list-style-type:disc;
+        list-style-position: inside;
+}
+
+.extrude__about-safety{
+    background: url(../../Assets/safety-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: var(--color-1);
+}
+
+.extrude__about-safety__content{
+    background-color: var(--color-6);
+    padding: 2rem 2rem;
+    width: 70%;
+    color: var(--color-3);
+}
+
+@media screen and (max-width:680px) {
+    .extrude__about-safety__content{
+        width: 100%;
+    }
+    
+  }
+
+.extrude__about-safety__content h1{
+    color: var(--color-1);
+}

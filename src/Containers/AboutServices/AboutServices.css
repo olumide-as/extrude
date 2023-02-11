@@ -1,0 +1,20 @@
+.aboutservices{
+    padding: 2rem;
+    background-color: var(--color-4);
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width:680px) {
+    .aboutservices{
+        flex-direction: column;
+        width:100%;
+    }
+    
+  }
+
+.aboutservices img{
+    height: 100px;
+    margin: 2rem;
+}

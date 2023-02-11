@@ -1,0 +1,13 @@
+.extrude__home-gallery__images{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 2rem 1rem;
+    justify-content: center;  
+}
+
+.extrude__home-gallery__images img{
+    height: 200px;
+    padding: 0.2rem;
+    border-radius: 10px;
+  }

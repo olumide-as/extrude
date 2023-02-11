@@ -1,0 +1,16 @@
+.services{
+    padding: 2rem;
+    background-color: var(--color-4);
+    width: 50%;
+}
+
+@media screen and (max-width:680px) {
+    .services{
+        width: 100%;
+    }
+    
+  }
+
+.services img{
+    height: 50px;
+}

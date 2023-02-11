@@ -1,0 +1,10 @@
+.extrude__brand-small{
+    display: flex;
+    flex-direction: row;
+    padding: 0.25rem;
+}
+
+.extrude__brand-small img{
+    height:30px;
+    margin: 0rem 1rem;
+}

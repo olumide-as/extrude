@@ -1,0 +1,25 @@
+.extrude__landing__content{
+    background-color: var(--color-6);
+    padding: 2rem 2rem;
+    width: 50%;
+}
+
+@media screen and (max-width:768px) {
+    .extrude__landing__content{
+        width: 100%;
+    }
+
+    .extrude__landing__content h3{
+        font-size: 40px;
+    }
+
+    .extrude__landing__content h2{
+        font-size: 30px;
+    }
+    
+  }
+
+.extrude__landing__button{
+    display: flex;
+    justify-content: space-evenly;
+}

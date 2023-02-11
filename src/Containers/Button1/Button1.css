@@ -1,0 +1,27 @@
+.button1 button{
+    width: 200px;
+    height: 36px;
+    font-family: var(--font-family);
+    color: var(--color-1);
+    background-color: var(--color-4);
+    font-weight: 400;
+    font-size: 14px;
+    border:solid;
+    border-width: 1px;
+    text-transform: uppercase;
+    margin: 1rem 0.5rem;
+}
+
+.button1 button:hover {
+    scale: 1.03;
+    transition: 0.4s;
+    background-color: var(--color-1);
+}
+
+.button1 p{
+    color: var(--color-1)
+}
+
+.button1 p:hover{
+    color: var(--color-4)
+}
