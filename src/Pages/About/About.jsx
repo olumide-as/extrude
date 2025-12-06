@@ -3,6 +3,7 @@ import { history, vision, aboutbg, design, fabrication, construction, project } 
 import { Button1, ContactDetails, Landing } from '../../Containers'
 import AboutServices from '../../Containers/AboutServices/AboutServices'
 import "./About.css"
+import CompanyProfile from '../../Containers/CompanyProfile/CompanyProfile'
 
 const About = () => {
   return (
@@ -59,6 +60,8 @@ const About = () => {
           <p>To remain a modern provider of Construction and Maintenance Services, using the latest technologies and offer technologically innovative designs and solutions to achieve highest level of work quality and excellent services while maximizing returns to client/stakeholders </p>
         </div>
       </div>
+
+      <CompanyProfile/>
 
       <div className='content__padding extrude__about-process'>
         <div className='extrude__about-process__content'>

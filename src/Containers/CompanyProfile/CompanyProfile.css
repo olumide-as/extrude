@@ -1,0 +1,41 @@
+.extrude__company-profile {
+    background-color: var(--color-1);
+    text-align: center;
+}
+
+.extrude__company-profile__heading h2 {
+    color: var(--color-4);
+}
+
+.extrude__company-profile__heading h3 {
+    color: var(--color-4);
+}
+
+.extrude__company-profile__cta {
+    margin-top: 2rem;
+}
+
+.extrude__company-profile__button {
+    padding: 1rem 2rem;
+    background-color: var(--color-4);
+    color: var(--color-1);
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+.extrude__company-profile__button:hover {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 768px) {
+    .extrude__company-profile__heading h3 {
+        font-size: 40px;
+    }
+
+    .extrude__company-profile__heading h2 {
+        font-size: 30px;
+    }
+}

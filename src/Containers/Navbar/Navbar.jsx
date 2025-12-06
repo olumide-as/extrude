@@ -1,6 +1,6 @@
 import React , { useState } from 'react'
 import { NavLink} from "react-router-dom";
-import logo from '../../Assets/extrude.png';
+import logo from '../../Assets/extrude.jpg';
 import {RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 import "./Navbar.css";
 import { ToastContainer } from 'react-toastify';

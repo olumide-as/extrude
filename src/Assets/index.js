@@ -1,4 +1,4 @@
-export { default as logo } from './extrude.png';
+export { default as logo } from './extrude.jpg';
 export { default as fb } from './fb.svg';
 export { default as insta } from './insta.svg';
 export { default as linkedin } from './linkedin.svg';
